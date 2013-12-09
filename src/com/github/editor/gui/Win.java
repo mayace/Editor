@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package editor.gui;
+package com.github.editor.gui;
 
 import java.io.IOException;
 import java.util.logging.Level;
@@ -31,7 +31,7 @@ public class Win extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        tabPane1 = new editor.gui.TabPane();
+        tabPane1 = new com.github.editor.gui.TabPane();
         menuBar = new javax.swing.JMenuBar();
         fileMenu = new javax.swing.JMenu();
         openMenuItem = new javax.swing.JMenuItem();
@@ -238,7 +238,7 @@ public class Win extends javax.swing.JFrame {
     private javax.swing.JMenuItem pasteMenuItem;
     private javax.swing.JMenuItem saveAsMenuItem;
     private javax.swing.JMenuItem saveMenuItem;
-    private editor.gui.TabPane tabPane1;
+    private com.github.editor.gui.TabPane tabPane1;
     // End of variables declaration//GEN-END:variables
 
 }
